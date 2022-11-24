@@ -1,0 +1,422 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 7, 2022, 2:55:32 PM
+    Author     : lequa
+*/
+#error{
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    background-color: skyblue;
+    text-align: center;
+    vertical-align: middle;
+    height: 350px;
+}
+.parentLog{
+    margin: 50px auto 0 auto;
+    width: 300px;
+    height: 150px;
+}
+#welcomeLog{
+    color: pink;
+    text-align: center;
+    font-size: 85px;
+}
+#childLog{
+    margin: 35px 0;
+    font-size: 30px;
+}
+
+#exampleInputName{
+    font-size: 30px;
+    color: lightpink;
+    background-color: lightblue;
+}
+#exampleInputPassword{
+    font-size: 30px;
+    color: lightpink;
+    background-color: lightblue;
+}
+
+#logButton{
+    color: pink;
+    background-color: graytext;
+}
+#resetLog{
+    color: pink;
+    background-color: graytext;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav a {
+    margin: 95px;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.topnav a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#errorLog{
+    text-align: center;
+    color: red;
+}
+.endLog{
+    background-color: black;
+    color: red;
+}
+.creaFather{
+    margin: 40px auto auto;
+    width: 210px;
+    height: 385px;
+    background-color: lightcyan;
+}
+#userCre{
+    color: red;
+    text-align: center;
+    background-color: pink;
+    height: 50px;
+}
+
+#cra{
+    color: pink;
+}
+#crb{
+    color: pink;
+}
+#crc{
+    color: pink;
+}
+#errCre{
+    margin: 50px;
+    padding: 50px;
+    height: 50px;
+    weight: auto;
+    background-color: skyblue;
+    text-align: center;
+}
+#defaut{
+    color: pink;
+}
+#nocc{
+    float: left;
+    color: yellow;
+}
+
+.createAll{
+    background-color: pink;
+}
+.adAll{
+    float: left;
+    margin: auto;
+    height: auto;
+    width: auto;
+    background-color: skyblue;
+}
+#welcomeBack{
+    text-align: center;
+}
+#logoutAd{
+    text-align: center;
+}
+#nameAd{
+    color: red;
+    text-align: center;
+    overflow: hidden;
+}
+#usManage{
+    margin: auto;
+    width: auto;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    background-color: lightsalmon;
+    height: 100px;
+}
+#usManage a:hover{
+    background-color: black;
+    color: white;
+}
+#usc{
+    display: table-cell;
+    vertical-align: middle;
+    height: 150px;
+}
+
+#pdManage{
+    margin: auto;
+    width: auto;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    background-color: purple;
+    height: 150px;
+}
+#pdManage a:hover{
+    background-color: black;
+    color: white;
+}
+#pdc{
+    display: table-cell;
+    vertical-align: middle;
+    height: 150px;
+}
+.bodyAd{
+    margin: auto;
+    height: auto;
+    width: auto;
+    background-color: darkblue;
+    text-align: center;
+}
+
+.right{
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: auto;
+    height: 150px;
+    background-color: black;
+}
+
+#errAd{
+    color: red;
+}
+#ownWork{
+    color: yellow;
+}
+#valid{
+    color: #ccffcc;
+}
+#newF{
+    color:#ffffcc;
+}
+
+.usermnAll{
+    background-color: pink;
+    margin: auto;
+    width: auto;
+    height: 500px;
+}
+
+#welcomeUsMn{
+    text-align: center
+}
+#errUs{
+    text-align: center;
+
+    color: red;
+}
+#gobackA{
+    margin: auto;
+    width: auto;
+}
+#gobackA a:hover{
+    background-color: black;
+    color: white;
+}
+.endUs{
+    margin: auto;
+    width: auto;
+    background-color: plum;
+    height: 200px;
+    text-align: center;
+}
+#troll{
+    font-size: 50px;
+}
+#pdmAll{
+    background-color: pink;
+    margin: auto;
+    width: auto;
+    height: 500px;
+}
+#welcomePdMn{
+    text-align: center;
+}
+#errPd{
+    text-align: center;
+    color: red;
+}
+#createPd{
+    margin: auto;
+    width: auto;
+    height: 200px;
+    background-color: wheat;
+    text-align: center;
+    font-size: 30px;
+}
+
+#gobackU{
+    margin: auto;
+    width: auto;
+}
+#gobackU a:hover{
+    background-color: black;
+    color: white;
+}
+.createPdall{
+    margin: auto;
+    width: auto;
+    height: 700px;
+    background-color: skyblue;
+}
+#welcomePdcr{
+    text-align: center;
+    color: blue;
+}
+#createPdmain{
+    text-align: center;
+}
+#errCrePd{
+    text-align: center;
+    margin: 50px;
+    width: auto;
+    background-color: peachpuff;
+    color: red;
+    font-size: 30px;
+}
+#cancelPd{
+    width: auto;
+    margin: auto;
+}
+#cancelPd a:hover{
+    background-color: black;
+    color: white;
+}
+.userAll{
+    margin: auto;
+    width: auto;
+    height: 500px;
+    background-color: pink;
+}
+
+#welcomeUser{
+    text-align: center;
+    font-size: 20px;
+}
+#logOutUs{
+    width: auto;
+    margin: auto;
+}
+#logOutUs a:hover{
+    background-color: black;
+    color: white;
+}
+.tableUs tr{
+    text-align: center;
+}
+.tableUs table{
+    margin: 0 auto;
+}
+#getVip{
+    text-align: center;
+    color: yellow;
+}
+#vipResult{
+    margin: auto;
+    width: 350px;
+    background-color: yellow;
+    text-align: center;
+    color: red;
+}
+#shopping{
+    text-align: center;
+}
+#shoppingPage{
+    margin: auto;
+    width: auto;
+}
+#shoppingPage a:hover{
+    background-color: black;
+    color: pink;
+}
+#view{
+    font-size: 30px;
+}
+#endUserPage{
+    margin: auto;
+    width: auto;
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#viewAll{
+    margin: auto;
+    width: auto;
+    height: 700px;
+    background-color: skyblue;
+}
+
+#endCart{
+    text-align: center;
+    font-size: 50px;
+}
+
+#addMore{
+    margin: auto;
+    width: auto;
+}
+#addMore a:hover{
+    background-color: black;
+    color: pink;
+}
+#tableShopping table{
+    margin: 0 auto;
+}
+
+#total{
+    text-align: center;
+}
+#shoppingAll{
+    margin: auto;
+    width: auto;
+    height: 700px;
+    background-color: skyblue;
+}
+#buying{
+    text-align: center;
+    color: pink;
+}
+
+#gobackU2{
+    width: auto;
+    margin: auto;
+}
+#gobackU2 a:hover{
+    background-color: black;
+    color: white;
+}
+#message{
+    text-align: center;
+    color: hotpink;
+    margin: auto;
+    width: 500px;
+    background-color: skyblue;
+}
+#message a:hover{
+    background-color: pink;
+    color: red;
+}
